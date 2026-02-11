@@ -7,6 +7,20 @@
     <meta name="description" content="E Flash - Professional Graphic Design, Web Design & Development Services" />
     <meta name="keywords" content="graphic design, web design, web development, UI/UX, branding, digital marketing" />
     <title>E Flash - Creative Design & Web Solutions</title>
+    <!-- Restore the path after redirect from 404.html -->
+    <script>
+      (function() {
+        var redirectPath = sessionStorage.getItem('redirectPath');
+        if (redirectPath) {
+          sessionStorage.removeItem('redirectPath');
+          var base = '/E-Flash-1.2';
+          var path = redirectPath.replace(base, '');
+          if (path && path !== '/' && window.location.pathname === base + '/') {
+            window.history.replaceState(null, null, base + path);
+          }
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

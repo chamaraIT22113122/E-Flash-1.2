@@ -5,10 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>E Flash - Loading...</title>
   <script>
-    // Redirect to index.html for client-side routing
-    const path = window.location.pathname.slice(1);
-    const base = '/E-Flash-1.2/';
-    window.location.replace(base + '#/' + path + window.location.search + window.location.hash);
+    // Store the path for redirect after React loads
+    sessionStorage.setItem('redirectPath', window.location.pathname + window.location.search + window.location.hash);
   </script>
 </head>
 <body>
@@ -16,5 +14,9 @@
     <h2>Loading...</h2>
     <p>Redirecting to E Flash website...</p>
   </div>
+  <!-- Redirect to index.html to let React Router handle the route -->
+  <script>
+    window.location.replace('/E-Flash-1.2/');
+  </script>
 </body>
 </html>
