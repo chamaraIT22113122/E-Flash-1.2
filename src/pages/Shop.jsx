@@ -13,7 +13,7 @@ const Shop = () => {
       name: 'Oversize T-shirt (The same but different)',
       description: 'Where premium quality meets unparalleled style. Elevate your wardrobe with our latest collection, crafted from the finest Heavy GSM material for a truly luxurious feel.',
       price: 2650.00,
-      image: '/assets/images/Shop/Evoke/123.png',
+      image: `${import.meta.env.BASE_URL}assets/images/Shop/Evoke/123.png`,
       category: 'clothes'
     },
     {
@@ -21,7 +21,7 @@ const Shop = () => {
       name: 'Oversize T-shirt (Aesthetic)',
       description: 'Where premium quality meets unparalleled style. Elevate your wardrobe with our latest collection, crafted from the finest Heavy GSM material for a truly luxurious feel.',
       price: 2750.00,
-      image: '/assets/images/Shop/Evoke/astronaut.jpg',
+      image: `${import.meta.env.BASE_URL}assets/images/Shop/Evoke/astronaut.jpg`,
       category: 'clothes'
     },
     {
@@ -29,7 +29,7 @@ const Shop = () => {
       name: 'Oversize T-shirt (Anime)',
       description: 'Where premium quality meets unparalleled style. Elevate your wardrobe with our latest collection, crafted from the finest Heavy GSM material for a truly luxurious feel.',
       price: 2790.00,
-      image: '/assets/images/Shop/Evoke/15.png',
+      image: `${import.meta.env.BASE_URL}assets/images/Shop/Evoke/15.png`,
       category: 'clothes'
     },
     {
@@ -37,7 +37,7 @@ const Shop = () => {
       name: 'Oversize T-shirt (Modern)',
       description: 'Where premium quality meets unparalleled style. Elevate your wardrobe with our latest collection, crafted from the finest Heavy GSM material for a truly luxurious feel.',
       price: 2650.00,
-      image: '/assets/images/Shop/Evoke/9752418 (1).jpg',
+      image: `${import.meta.env.BASE_URL}assets/images/Shop/Evoke/9752418 (1).jpg`,
       category: 'clothes'
     },
     {
@@ -45,7 +45,7 @@ const Shop = () => {
       name: 'Oversize T-shirt (Beast)',
       description: 'Where premium quality meets unparalleled style. Elevate your wardrobe with our latest collection, crafted from the finest Heavy GSM material for a truly luxurious feel.',
       price: 2750.00,
-      image: '/assets/images/Shop/Evoke/Beast.jpg',
+      image: `${import.meta.env.BASE_URL}assets/images/Shop/Evoke/Beast.jpg`,
       category: 'clothes'
     },
     {
@@ -53,7 +53,7 @@ const Shop = () => {
       name: 'Oversize T-shirt (Enjoy The Wind)',
       description: 'Where premium quality meets unparalleled style. Elevate your wardrobe with our latest collection, crafted from the finest Heavy GSM material for a truly luxurious feel.',
       price: 2690.00,
-      image: '/assets/images/Shop/Evoke/ENJOY_THE_WIND 02.jpg',
+      image: `${import.meta.env.BASE_URL}assets/images/Shop/Evoke/ENJOY_THE_WIND 02.jpg`,
       category: 'clothes'
     },
     {
@@ -61,7 +61,7 @@ const Shop = () => {
       name: 'Tissue Box',
       description: '✨High quality & premium look. Brand sleeves — BMW, Benz, Honda, Toyota, Nissan, Land Rover, Audi & more',
       price: 350.00,
-      image: '/assets/images/Shop/T3.png',
+      image: `${import.meta.env.BASE_URL}assets/images/Shop/T3.png`,
       category: 'accessories'
     },
     {
@@ -69,7 +69,7 @@ const Shop = () => {
       name: 'LUXGEAR BOTTLE',
       description: 'Premium glass bottles wrapped in your brand sleeves. BMW, Benz, Honda, Toyota, Nissan, Land Rover, Audi & more',
       price: 1849.99,
-      image: '/assets/images/Shop/435.png',
+      image: `${import.meta.env.BASE_URL}assets/images/Shop/435.png`,
       category: 'accessories'
     },
     {
@@ -77,7 +77,7 @@ const Shop = () => {
       name: 'Premium Brand Bottle',
       description: 'High-quality branded bottles for your vehicle. Available for all major car brands.',
       price: 1499.00,
-      image: '/assets/images/Shop/b1.png',
+      image: `${import.meta.env.BASE_URL}assets/images/Shop/b1.png`,
       category: 'accessories'
     },
     {
@@ -85,7 +85,7 @@ const Shop = () => {
       name: 'Luxury Brand Bottle',
       description: 'Elegant branded bottles for your car. Premium quality materials.',
       price: 1599.00,
-      image: '/assets/images/Shop/b2.png',
+      image: `${import.meta.env.BASE_URL}assets/images/Shop/b2.png`,
       category: 'accessories'
     },
     {
@@ -93,7 +93,7 @@ const Shop = () => {
       name: 'Smart Watch',
       description: 'Stay connected and track your fitness with our sleek and stylish smart watch.',
       price: 13999.00,
-      image: '/assets/images/Shop/watch/1.jpeg',
+      image: `${import.meta.env.BASE_URL}assets/images/Shop/watch/1.jpeg`,
       category: 'watch'
     },
     {
@@ -101,7 +101,7 @@ const Shop = () => {
       name: 'Sport Smart Watch',
       description: 'Advanced fitness tracking with heart rate monitor and GPS.',
       price: 14999.00,
-      image: '/assets/images/Shop/watch/2.jpeg',
+      image: `${import.meta.env.BASE_URL}assets/images/Shop/watch/2.jpeg`,
       category: 'watch'
     },
     {
@@ -109,7 +109,7 @@ const Shop = () => {
       name: 'Premium Smart Watch',
       description: 'Luxury smartwatch with premium features and elegant design.',
       price: 15999.00,
-      image: '/assets/images/Shop/watch/3.jpeg',
+      image: `${import.meta.env.BASE_URL}assets/images/Shop/watch/3.jpeg`,
       category: 'watch'
     }
   ]
